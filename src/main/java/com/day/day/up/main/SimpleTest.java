@@ -9,7 +9,7 @@ public class SimpleTest {
     public static void main(String[] args) throws ClassNotFoundException {
 
         SimpleTest simpleTest = new SimpleTest();
-        Class clazz = Class.forName("com.day.day.up.main.service.impl.Apple");
+        Class clazz = Class.forName("com.day.day.up.main.service.impl.AppleServiceImpl");
         System.out.println(simpleTest.root);
         clazz.getClass().getName();
         //test(args);
